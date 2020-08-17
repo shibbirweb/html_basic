@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+      integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+      crossorigin="anonymous"
+    />
+    <!-- Material Icons -->
+    <link
+      rel="stylesheet"
+      href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css"
+    />
+    <title>HTML Practice Submitted Tasks</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 mt-5">
+          <div class="card shadow-sm">
+            <div class="card-header text-center">
+              HTML Tasks
+            </div>
+            <div class="card-body">
+              <!-- Accordion Start -->
+              <div class="accordion" id="tasks_accordion">
+                <!-- Task 1 Start -->
+                <div class="card">
+                  <div class="card-header p-0" id="task_1_heading">
+                    <h2 class="mb-0">
+                      <button
+                        class="btn btn-block text-left"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#task_1"
+                        aria-expanded="true"
+                        aria-controls="task_1"
+                      >
+                        <span
+                          class="mdi mdi-check-circle text-success"
+                          title="Submitted"
+                        ></span>
+                        Task 1
+                      </button>
+                    </h2>
+                  </div>
+
+                  <div
+                    id="task_1"
+                    class="collapse"
+                    aria-labelledby="task_1_heading"
+                    data-parent="#tasks_accordion"
+                  >
+                    <div class="card-body">
+                      <div class="text-center">
+                        <figure class="figure">
+                          <img
+                            src="./assets/images/task_1.png"
+                            class="figure-img rounded img-thumbnail shadow-sm"
+                            alt="Task 1 Preview"
+                          />
+                          <figcaption class="figure-caption">
+                            Task 1 Preview
+                          </figcaption>
+                        </figure>
+                        <div class="row">
+                          <div class="col-lg-6 offset-lg-3">
+                            <div class="card shadow-sm">
+                              <div class="card-header">
+                                Requirements
+                              </div>
+                              <div class="card-body">
+                                <ul class="list-group list-group-flush">
+                                  <li class="list-group-item">
+                                    1. Page should like the preview
+                                  </li>
+                                  <li class="list-group-item">
+                                    2. On each link, should open new tab to open
+                                    the link
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="row mt-5">
+                        <div class="col-md-6 offset-md-3">
+                          <div class="card shadow-sm">
+                            <div class="card-header text-center">
+                              Result
+                            </div>
+                            <div class="card-body text-center">
+                              <h5 class="text-center">Status: Submitted</h5>
+                              <div class="row align-items-center">
+                                <div class="col-sm-3 text-center">
+                                  Marks:
+                                </div>
+                                <div class="col-sm-9">
+                                  <div class="progress">
+                                    <div
+                                      class="progress-bar bg-success"
+                                      role="progressbar"
+                                      style="width: 98%;"
+                                      aria-valuenow="98"
+                                      aria-valuemin="0"
+                                      aria-valuemax="100"
+                                    >
+                                      98%
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <a
+                                href="submitted/task_1/list.html"
+                                class="btn btn-info btn-sm mt-2"
+                                target="_blank"
+                                >Preview</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Task 1 End -->
+
+                <!-- Task 2 Start -->
+                <div class="card">
+                  <div class="card-header p-0" id="task_2_heading">
+                    <h2 class="mb-0">
+                      <button
+                        class="btn btn-block text-left"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#task_2"
+                        aria-expanded="true"
+                        aria-controls="task_2"
+                      >
+                        <span
+                          class="mdi mdi-radius mdi-spin text-info"
+                          title="Pending"
+                        ></span>
+                        Task 2
+                      </button>
+                    </h2>
+                  </div>
+
+                  <div
+                    id="task_2"
+                    class="collapse show"
+                    aria-labelledby="task_2_heading"
+                    data-parent="#tasks_accordion"
+                  >
+                    <div class="card-body">
+                      <div class="text-center">
+                        <figure class="figure">
+                          <img
+                            src="./assets/images/task_2.png"
+                            class="figure-img rounded img-thumbnail shadow-sm"
+                            width="50%"
+                            alt="Task 2 Preview"
+                          />
+                          <figcaption class="figure-caption">
+                            Task 2 Preview
+                          </figcaption>
+                        </figure>
+                        <div class="row">
+                          <div class="col-lg-6 offset-lg-3">
+                            <div class="card shadow-sm">
+                              <div class="card-header">
+                                Requirements
+                              </div>
+                              <div class="card-body">
+                                <ul class="list-group list-group-flush">
+                                  <li class="list-group-item">
+                                    1. Page should like the preview
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="row mt-5">
+                        <div class="col-md-6 offset-md-3">
+                          <div class="card shadow-sm">
+                            <div class="card-header text-center">
+                              Result
+                            </div>
+                            <div class="card-body text-center">
+                              <h5 class="text-center">Status: Pending</h5>
+                              <!-- <div class="row align-items-center">
+                                <div class="col-sm-3 text-center">
+                                  Marks:
+                                </div>
+                                <div class="col-sm-9">
+                                  <div class="progress">
+                                    <div
+                                      class="progress-bar bg-success"
+                                      role="progressbar"
+                                      style="width: 98%;"
+                                      aria-valuenow="98"
+                                      aria-valuemin="0"
+                                      aria-valuemax="100"
+                                    >
+                                      98%
+                                    </div>
+                                  </div>
+                                </div>
+                              </div> -->
+                              <a
+                                href="submitted/task_1/list.html"
+                                class="btn btn-info btn-sm mt-2 disabled"
+                                target="_blank"
+                                >Preview</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Task 2 End -->
+              </div>
+              <!-- Accordion End  -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- Popper.js first, then Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+      integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
